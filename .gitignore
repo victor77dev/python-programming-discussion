@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Draft folder
+drafts/*
+
+# VS code workspace
+*.code-workspace
