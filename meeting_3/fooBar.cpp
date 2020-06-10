@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 void fooBar(int num);
 
 int main() {    
