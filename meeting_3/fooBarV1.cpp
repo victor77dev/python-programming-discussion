@@ -2,15 +2,15 @@
 
 using namespace std;
 
-void fooBar(int num);
+void fooBarV1(int num);
 
 int main() {    
-    fooBar(15);
-    fooBar(42);
-    fooBar(100);
+    fooBarV1(15);
+    fooBarV1(42);
+    fooBarV1(100);
 }
 
-void fooBar(int num) {
+void fooBarV1(int num) {
     cout << "Foo Bar Game of " << num << endl;
     for (int i = 1; i <= num; i++) {
         string output = "";

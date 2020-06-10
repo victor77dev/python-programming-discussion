@@ -1,4 +1,4 @@
-function fooBar(num) {
+function fooBarV1(num) {
     console.log(`Foo Bar Game of ${num}`);
     for (let i = 1; i <= num; i++) {
         let output = '';
@@ -9,6 +9,6 @@ function fooBar(num) {
     }
 }
 
-fooBar(15);
-fooBar(42);
-fooBar(100);
+fooBarV1(15);
+fooBarV1(42);
+fooBarV1(100);
