@@ -13,9 +13,10 @@ int main() {
 void fooBar(int num) {
     cout << "Foo Bar Game of " << num << endl;
     for (int i = 1; i <= num; i++) {
-        if (i % 3 == 0) cout << "Foo";
-        if (i % 5 == 0) cout << "Bar";
-        if (i % 3 != 0 && i % 5 != 0) cout << i;
-        cout << endl;
+        string output = "";
+        if (i % 3 == 0) output += "Foo";
+        if (i % 5 == 0) output += "Bar";
+        if (i % 3 != 0 && i % 5 != 0) output += to_string(i);
+        cout << output << endl;
     }
 }
