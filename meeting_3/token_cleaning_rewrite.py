@@ -6,17 +6,17 @@ Created on Tue Jun  9 20:28:30 2020
 @author: JiaJian
 """
 
-Word = input("Enter word: ")
-if "'" in Word[0] and "'" in Word[-1]:
-    Word = Word.replace("'", "", -1)
+word = input("Enter word: ")
+if "'" in word[0] and "'" in word[-1]:
+    word = word.replace("'", "", -1)
 
-Word = Word.strip(",!?. \"")
+word = word.strip(",!?. \"")
 
 symbol = [",", ".", "?", "!", "\""]
 for i in symbol:
-    Word = Word.replace(i, "", -1)
+    word = word.replace(i, "", -1)
 
-if Word == "":
+if word == "":
     print("Achtung: Kein Token gefunden.")
 else:
-    print(Word)
+    print(word)
