@@ -15,7 +15,6 @@ what_type_is_this('Coding')
 what_type_is_this('Don\'t panic')
 what_type_is_this(1/3*3 == 1)
 what_type_is_this(True)
-
 what_type_is_this(1 == True)
 what_type_is_this(2 == True)
 what_type_is_this(2 == False)
