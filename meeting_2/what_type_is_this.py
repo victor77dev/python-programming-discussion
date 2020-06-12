@@ -1,7 +1,7 @@
 def what_type_is_this(variable):
     # Let's try debugger
     print(f'{variable} is ', end='')
-    print(f'{type(variable)}')
+    print(f'{type(variable).__name__}')
 
 what_type_is_this(42)
 what_type_is_this(3.14)
