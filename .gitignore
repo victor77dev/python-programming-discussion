@@ -133,3 +133,6 @@ drafts/*
 
 # VS code workspace
 *.code-workspace
+
+# VS code debug config
+.vscode/
