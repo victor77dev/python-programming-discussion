@@ -14,6 +14,8 @@ what_type_is_this('Don\'t panic')
 what_type_is_this(1/3*3 == 1)
 what_type_is_this(True)
 what_type_is_this(0.1 + 0.2 == 0.3)
+what_type_is_this(1 < 3 < 4)
+what_type_is_this(2 == 2 is True)
 a = -1
 what_type_is_this(a)
 what_type_is_this(abs(a))
