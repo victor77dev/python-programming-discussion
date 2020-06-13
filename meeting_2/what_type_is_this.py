@@ -22,22 +22,26 @@ what_type_is_this(1 == False)
 what_type_is_this(2 == True)
 what_type_is_this(2 == False)
 what_type_is_this(1 + True)
+what_type_is_this(True + True)
 what_type_is_this(1 + True == True)
-what_type_is_this((-1 + True) == True)
-what_type_is_this(-1 + (True == True))
-what_type_is_this(-1 + True == True)
-what_type_is_this((0 == 0) + False or True)
-what_type_is_this(0 == (0 + False) or True)
-what_type_is_this(0 == 0 + (False or True))
-what_type_is_this(0 == 0 + False or True)
+what_type_is_this((1 + True) == True)
+what_type_is_this(1 + (True == True))
+what_type_is_this((-1 + True) == True) #False
+what_type_is_this(-1 + (True == True)) #0
+what_type_is_this(-1 + True == True) #False
+what_type_is_this((1 == 2 )!= 3) #True
+what_type_is_this(1 == 2 != 3) #False
+what_type_is_this(1 == (2 != 3)) #True
+what_type_is_this((0 == 0) + False or True) #1
+what_type_is_this(0 == (0 + False) or True) #True
+what_type_is_this(0 == 0 + (False or True)) #False
+what_type_is_this(0 == 0 + False or True) #True
+what_type_is_this(0.1 + 0.1 == 0.2)
 what_type_is_this(0.1 + 0.2 == 0.3)
 what_type_is_this(1 < 3 < 4)
 what_type_is_this(2 == 2 is True)
-a = -1
-what_type_is_this(a)
+a = -1; what_type_is_this(a)
 what_type_is_this(abs(a))
-a = 'Haha'
-what_type_is_this(a)
-a = ['Haha', 1]
-what_type_is_this(a)
+a = 'Haha'; what_type_is_this(a)
+a = ['Haha', 1]; what_type_is_this(a)
 what_type_is_this(abs(a))
