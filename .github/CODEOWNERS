@@ -1,0 +1,7 @@
+# Python programmming discussion codeowners
+# https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners
+
+* @victor77dev
+
+# code-for-review
+code-for-review/* @victor77dev @jjiajian @tsuikwaikwan @Razohara
