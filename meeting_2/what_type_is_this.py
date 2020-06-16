@@ -3,8 +3,9 @@ def what_type_is_this(variable):
     what_type_is_this.line += 1
     print(f'line {what_type_is_this.line}: {variable} is ', end='')
     print(f'{type(variable).__name__}')
-what_type_is_this.line = 7
+what_type_is_this.line = 8
 
+# Please add the value and type output for each line (<value> is <type>) with comment
 what_type_is_this(42)
 what_type_is_this(3.14)
 what_type_is_this(42.)
