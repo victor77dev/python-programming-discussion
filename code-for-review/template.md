@@ -8,4 +8,4 @@
 
 *Put some examples of expected input & output pairs if any*
 
-### Addtional info
+### Additional info
