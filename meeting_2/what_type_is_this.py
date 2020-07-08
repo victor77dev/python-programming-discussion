@@ -6,13 +6,13 @@ def what_type_is_this(variable):
 what_type_is_this.line = 8
 
 # Please add the value and type output for each line (<value> is <type>) with comment
-what_type_is_this(42)
+what_type_is_this(42) # 42 is int
 what_type_is_this(3.14)
 what_type_is_this(42.)
 what_type_is_this(1/3)
 what_type_is_this(1//3)
 what_type_is_this(2//3)
-what_type_is_this('Coding')
+what_type_is_this('Coding') # Coding is str
 what_type_is_this('Don\'t panic')
 what_type_is_this(1/3*3 == 1)
 what_type_is_this(True)
