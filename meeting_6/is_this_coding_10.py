@@ -13,8 +13,3 @@ def is_this_coding(activity = None):
 
 for i in range(10):
     is_this_coding()
-# is_this_coding('Typing') # No! Of course not!
-# is_this_coding('Programming') # Yes!
-# is_this_coding('Coding') # Yes!
-# is_this_coding('Cooking') # What is that?
-# is_this_coding('Debugging') # What is that?
