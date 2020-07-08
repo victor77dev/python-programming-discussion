@@ -11,5 +11,7 @@ def is_this_coding(activity = None):
     else:
         print(f'What is that? {activity}???')
 
+is_this_coding('Typing') # It works as we have default argument!
+
 for i in range(10):
     is_this_coding()
