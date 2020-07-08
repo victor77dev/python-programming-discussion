@@ -1,4 +1,3 @@
-# Please read this code
 def is_this_coding(activity):
     if activity == 'Typing':
         print('No! Of course not! ' + activity + ' is not Coding!')
