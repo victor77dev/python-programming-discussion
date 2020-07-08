@@ -8,8 +8,8 @@ def is_this_coding(activity):
     else:
         print(f'What is that? {activity}???')
 
-is_this_coding('Typing') # No! Of course not!
-is_this_coding('Programming') # Yes!
-is_this_coding('Coding') # Yes!
-is_this_coding('Cooking') # What is that?
-is_this_coding('Debugging') # What is that?
+is_this_coding('Typing') # No! Of course not! Typing is not Coding.
+is_this_coding('Programming') # Yes! Programming is Coding.
+is_this_coding('Coding') # Yes! Coding is Coding.
+is_this_coding('Cooking') # What is that? Cooking???
+is_this_coding('Debugging') # Yes! Debugging is part of Coding.
